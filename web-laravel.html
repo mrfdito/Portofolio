@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Proyek: MRF.GRAM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-900 text-white font-sans">
+    <div class="max-w-6xl mx-auto py-8 px-4 md:px-6">
+      <header class="flex justify-between items-center mb-12">
+        <h1 class="text-3xl md:text-4xl font-bold text-cyan-400">
+          Demo Proyek: MRF.GRAM
+        </h1>
+        <a
+          href="index.html"
+          class="inline-flex items-center gap-2 bg-slate-700 text-slate-100 font-semibold px-4 py-2 rounded-lg hover:bg-slate-600 transition-colors"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <span>Kembali</span>
+        </a>
+      </header>
+
+      <div class="space-y-16 md:space-y-24">
+        <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+          <div class="space-y-6">
+            <img
+              src="mrf-gram/1 login.png"
+              alt="Login"
+              class="rounded-lg border border-slate-700 shadow-lg"
+            />
+            <img
+              src="mrf-gram/2 register.png"
+              alt="Register"
+              class="rounded-lg border border-slate-700 shadow-lg"
+            />
+          </div>
+          <div>
+            <h2 class="text-2xl font-bold text-white mb-3">
+              1. Autentikasi Pengguna (Login & Register)
+            </h2>
+            <p class="text-slate-300 leading-relaxed">
+              Sistem autentikasi adalah gerbang utama aplikasi. Pengguna dapat
+              mendaftar dengan aman melalui form registrasi yang dilengkapi
+              validasi untuk memastikan data, terutama konfirmasi password,
+              sudah benar. Halaman login dirancang minimalis untuk kemudahan
+              akses. Proses ini menangani sesi pengguna, memastikan hanya
+              pengguna terdaftar yang bisa masuk ke dalam aplikasi.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+          <div class="md:order-last">
+            <h2 class="text-2xl font-bold text-white mb-3">
+              2. Beranda dan Interaksi Sosial
+            </h2>
+            <p class="text-slate-300 leading-relaxed">
+              Halaman utama (feed) adalah pusat aktivitas, bisa mencari pengguna
+              lain di navbar, menampilkan postingan dari semua pengguna secara
+              dinamis. Setiap kartu postingan dirancang untuk interaktivitas,
+              memungkinkan pengguna untuk memberikan 'like' dan melihat
+              komentar. Informasi penting seperti nama pengunggah dan waktu
+              posting (misal: "2 jam yang lalu") juga ditampilkan untuk
+              memberikan konteks.
+            </p>
+          </div>
+          <img
+            src="mrf-gram/3 home.png"
+            alt="Home / Feed"
+            class="rounded-lg border border-slate-700 shadow-lg"
+          />
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+          <div class="space-y-6">
+            <img
+              src="mrf-gram/4 profil orang.png"
+              alt="Profil Pengguna Lain"
+              class="rounded-lg border border-slate-700 shadow-lg"
+            />
+            <img
+              src="mrf-gram/5 profil sendiri.png"
+              alt="Profil Sendiri"
+              class="rounded-lg border border-slate-700 shadow-lg"
+            />
+          </div>
+          <div>
+            <h2 class="text-2xl font-bold text-white mb-3">
+              3. Halaman Profil Pengguna
+            </h2>
+            <p class="text-slate-300 leading-relaxed">
+              Setiap pengguna memiliki halaman profil personal. Saat mengunjungi
+              profil orang lain, kita bisa melihat biodata dan galeri postingan
+              mereka. Pada halaman profil pribadi, pengguna mendapatkan
+              fungsionalitas lebih, seperti tombol "Edit Profil" untuk
+              memperbarui data diri dan rekapitulasi jumlah total postingan
+              serta 'likes' yang telah diterima, memberikan gambaran engagement
+              akun.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+          <div class="md:order-last">
+            <h2 class="text-2xl font-bold text-white mb-3">
+              4. Fitur Chat Real-Time
+            </h2>
+            <p class="text-slate-300 leading-relaxed">
+              Fitur unggulan dari MRF.GRAM adalah sistem perpesanan langsung
+              (chat) antar pengguna yang berjalan secara real-time. Antarmuka
+              chat dirancang intuitif, membedakan pesan yang dikirim dan
+              diterima. Teknologi di baliknya memungkinkan pesan terkirim dan
+              diterima secara instan tanpa perlu me-refresh halaman, menciptakan
+              pengalaman berkomunikasi yang lancar.
+            </p>
+          </div>
+          <img
+            src="mrf-gram/6 chat.png"
+            alt="Chat Antar Pengguna"
+            class="rounded-lg border border-slate-700 shadow-lg"
+          />
+        </div>
+      </div>
+
+      <footer
+        class="mt-24 border-t border-slate-700 pt-8 text-center text-slate-500"
+      >
+        Dibuat oleh Muhammad Rizqi Ferdhinandito | Universitas Pertamina | 2025
+      </footer>
+    </div>
+  </body>
+</html>
